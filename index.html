@@ -2,13 +2,14 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>وب اپ تلگرام</title>
+  <title>فرم ثبت‌نام</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>سلام! اسمت چیه؟</h2>
-  <input type="text" id="nameInput" placeholder="نام خود را وارد کنید">
-  <button onclick="sendToBot()">ارسال به ربات</button>
+  <h2>فرم ثبت‌نام</h2>
+  <input type="text" id="name" placeholder="نام">
+  <input type="text" id="phone" placeholder="شماره موبایل">
+  <button onclick="sendData()">ارسال اطلاعات</button>
 
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
   <script src="script.js"></script>
